@@ -3,20 +3,52 @@
 
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Jquery Validate  vía CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"></script>
+
+    <!-- enlazamos el css local  -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+    <title>GROWSHOP</title>
+
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <title>GROWSHOP</title>
+
+
+
+
+
 
 </head>
 
@@ -79,146 +111,111 @@
 
 
     <!--Principal Header-->
-
-
-
     <header>
-        <div class="logo text-center"> <img src="img/logo.png" width="400" height="400" alt="LOGO_TIENDA">
+        <div class="logo text-center"> <img src="img/International_Pokémon_logo.svg" width="800" height="400"
+                alt="LOGO_TIENDA">
         </div>
 
 
     </header>
 
+
+
+
+
+    <div class="input-group mb-3 w-25 m-auto pt-5">
+        <button type="button" class="btn btn-info m-auto ">Buscar</button>
+        <div class="input-group-prepend">
+
+        </div>
+        <input id="input" type="text" class="form-control" placeholder="Pokemon ID" aria-label="Username"
+            aria-describedby="basic-addon1">
+    </div>
+
+    <div class="input-group mb-3 w-25 m-auto pt-5">
+        <button id="random" type="button" class="btn btn-info m-auto ">Random</button>
+        <div class="input-group-prepend">
+
+        </div>
+
+    </div>
+
     
+    <div class="flex-container">
 
 
-        <!--Productos-->
-        <div id="productos">
-
-            <div class="col-md-12">
-                <h2 class="text-center oswald-bold textonero">REPUESTOS</h2>
-                <hr class="hr-espace">
-                <h4 class="text-center oswald-bold textonero">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Odit temporibus nam, esse pariatur necessitatibus sapiente harum facilis vitae?
-                    Praesentium aut veritatis, est maiores repellendus quo deleniti labore iste possimus molestias!
-                </h4>
-                <hr class="hr-espace">
-                <hr class="hr-espace">
-            </div>
-
-           
+        
 
 
 
 
 
-
-
-
-
-
-            <div class="flex-container">
-
-
-
-
-                <div class="card text-black bg-dark flex-item">
-                    <img src="img/vapers.jpg" class="imagen" alt="...">
-                    <div class="card-img-overlay">
-
-                        <div class="background trans">
-                            <p class="textonero"> VAPERS</p>
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-
-                <div class="card text-black bg-dark flex-item">
-                    <img src="img/escencias.png" class="imagen" alt="...">
-                    <div class="card-img-overlay">
-
-                        <div class="background trans">
-                            <p class="textonero">ESCENCIAS</p>
-                        </div>
-
-
-
-
-
-
-
-                    </div>
-                </div>
-
-                <div class="card text-black bg-dark flex-item">
-                    <img src="img/tabaco.jpg" class="imagen" alt="...">
-                    <div class="card-img-overlay">
-
-                        <div class="background trans">
-                            <p class="textonero">TABACOS</p>
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="flex-container">
-
-
-                <div class="card text-black bg-dark flex-item">
-                    <img src="img/acessorios.jpg" class="imagen" alt="...">
-                    <div class="card-img-overlay">
-
-                        <div class="background trans">
-                            <p class="textonero">ACCESORIOS</p>
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-
-                <div class="card text-black bg-dark flex-item">
-                    <img src="img/repuestos.jpg" class="imagen" alt="...">
-                    <div class="card-img-overlay">
-
-                        <div class="background trans">
-                            <p class="textonero">REPUESTOS</p>
-                        </div>
-
-
-
-
-                    </div>
-                </div>
-
-                <div class="card text-black bg-dark flex-item">
-                    <img src="img/otros.jpg" class="imagen" alt="...">
-                    <div class="card-img-overlay">
-
-                        <div class="background trans">
-                            <p class="textonero">OTROS</p>
-                        </div>
-
-
-
-
-                    </div>
+        <div class="card text-black flex-item">
+            <img class="oficial" src="" alt="">
+            <div class="card-img-overlay">
+                <div class="background trans">
+                    <p class="formato1"><span id="nombre"></span></p>
                 </div>
             </div>
         </div>
 
+        <div class="datos flex-item">
+            <h3 class="formato1"> N° <span id="numero"></span></h3>
+            <h4 class="formato1"><span id="informacion2"></span></h4>
 
-        
+            <p class="formato1">Tipo <img class="imgtipo1" src="" alt=""> <span id="tipo1">
+                </span> / <img class="imgtipo2" src="" alt=""> <span id="tipo2"></span> </p>
+            <p class="formato1">Peso <span id="peso"></span> kg </p>
+            <p class="formato1">Altura <span id="altura"></span> m </p>
+        </div>
 
-        
+
+
+
+        <div class="formato1">
+            <p id="informacion"></p>
+            <p id="informacion3"></p>
+        </div>
+
+
+        <div class="tabla">
+            <table class="ataques" style="margin: 0 auto; margin: 10%;">
+                <thead>
+                    <tr>
+                        <th>HP</th>
+                        <th>Atq</th>
+                        <th>Def</th>
+                        <th>A esp</th>
+                        <th>D esp</th>
+                        <th>vel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class=hp></td>
+                        <td class=ataque></td>
+                        <td class=defensa></td>
+                        <td class=atqesp></td>
+                        <td class=defesp></td>
+                        <td class=velocidad></td>
+
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="js/carga_1.js"></script>
+
+
+
     <!--Footer-->
 
     <footer>
@@ -227,7 +224,8 @@
 
 
                 <div class="col-sm col-md">
-                    <h3 class="oswald-bold textonero"><img src="img/logo.png" width="40" height="40" alt="Logo">GROWSHOPCHILE
+                    <h3 class="oswald-bold textonero"><img src="img/logo.png" width="40" height="40"
+                            alt="Logo">GROWSHOPCHILE
                     </h3>
 
                     <h5 class="textonero">Nuestras Redes
@@ -275,11 +273,11 @@
                     </h5>
 
                     <hr class="hr-espace">
-                <hr class="hr-espace">
+                    <hr class="hr-espace">
                 </div>
 
 
-                
+
 
 
 
@@ -294,12 +292,13 @@
 
 
     <!--script-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
+
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>

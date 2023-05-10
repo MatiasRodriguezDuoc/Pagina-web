@@ -26,7 +26,13 @@ $(document).ready(function() {
         message: {
             required: true,
             minlength: 3
-        }
+        },
+        pedido: {
+          required: true,
+          minlength: 3
+      }
+
+        
       },
       messages : {
         name: {
@@ -54,6 +60,13 @@ $(document).ready(function() {
             required: "Ingrese texto del mensaje",
             minlength: "Largo min 3 caracteres"
         }
+
+        ,
+        pedido: {
+            required: "Ingrese su pedido",
+            minlength: "Largo min 3 caracteres"
+        }
+        
       }
     });
   });
